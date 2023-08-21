@@ -16,9 +16,7 @@ body {
   justify-content: center;
   height: 100vh;
   background-image: url(../images/pattern-background-desktop.svg);
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
 .order-Summary-box {
@@ -136,4 +134,43 @@ body {
 .button-box a:hover {
   color: hsl(223, 47%, 23%);
   transition: all 0.15s ease-in-out;
+}
+
+/* Responsive */
+
+@media (max-width: 375px) {
+  .container {
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+  .img-box img {
+    width: 230px;
+  }
+  .content-box {
+    width: 230px;
+  }
+  .text-box p {
+    font-size: 11px;
+  }
+  .text-box h1 {
+    font-size: 19px;
+  }
+  .annual-plan-div {
+    column-gap: 7px;
+  }
+  .annual-plan-text p:first-child {
+    font-size: 12px;
+  }
+  .annual-plan-text p:last-child {
+    font-size: 12px;
+  }
+  .annual-plan a {
+    font-size: 10px;
+  }
+  .annual-plan-div img {
+    width: 35px;
+  }
+  .button-box {
+    margin: 0 20px;
+  }
 }
