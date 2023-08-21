@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: RedHatDisplay;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.order-Summary-box {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.img-box img {
+  border-radius: 13px 13px 0 0;
+  width: 350px;
+}
+
+.content-box {
+  width: 300px;
+}
+
+.text-box {
+  text-align: center;
+  width: 100%;
+}
+
+.text-box h1 {
+  font-size: 22px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-top: 26px;
+}
+
+.text-box p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  margin-top: 15px;
+}
+
+.annual-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 19px;
+}
+
+.annual-plan-div {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.annual-plan-div img {
+  width: 39px;
+}
+
+.annual-plan-text p:first-child {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.annual-plan-text p:last-child {
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.annual-plan a {
+  color: hsl(245, 75%, 52%);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.annual-plan a:hover {
+  color: hsl(224, 23%, 55%);
+  transition: all 0.15s ease-in-out;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 28px;
+  text-align: center;
+}
+
+.button-box button {
+  outline: none;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  padding: 14px 0;
+  border-radius: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 9px 16px 31px -5px rgba(56, 41, 224, 0.26);
+  -webkit-box-shadow: 9px 16px 31px -5px rgba(56, 41, 224, 0.26);
+  -moz-box-shadow: 9px 16px 31px -5px rgba(56, 41, 224, 0.26);
+  transition: all 0.15s ease-in-out;
+}
+
+.button-box button:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.button-box a {
+  text-decoration: none;
+  font-size: 12px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+
+.button-box a:hover {
+  color: hsl(223, 47%, 23%);
+  transition: all 0.15s ease-in-out;
+}
